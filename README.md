@@ -1,6 +1,8 @@
 PSGI/Mojolicious/DBI/Teng Example
 =================================
 
+[![Build Status](https://travis-ci.org/yowcow/p5-intro-to-web-app.svg?branch=master)](https://travis-ci.org/yowcow/p5-intro-to-web-app)
+
 HOW TO USE
 ----------
 
