@@ -12,7 +12,7 @@ test.db: schema.sql
 server: cpanfile.snapshot
 	carton exec -- plackup -Ilib app.psgi --port 5000
 
-test: cpanfile.snapshot
+test: cpanfile.snapshot test.db
 	carton exec -- prove -Ilib -r t
 
 clean:
